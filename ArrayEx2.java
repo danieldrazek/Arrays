@@ -3,19 +3,8 @@ package array;
 
     
 public class ArrayEx2 {
-    
-    public int biggestNumber(int[] numbers){              
-        int biggest = numbers[0];
-        if(numbers[1] > biggest){
-            biggest = numbers[1];
-        }
-        else(numbers[2] > biggest){
-            biggest = numbers[2];
-        }  
-        return biggest;    
-    }
-    
-    public int biggestNumber2(int[] numbers){
+
+    public int biggestNumber(int[] numbers){
         return Math.max(numbers[0], Math.max(numbers[1], numbers[2]));     
     }
     
@@ -23,9 +12,8 @@ public class ArrayEx2 {
         
             ArrayEx2 excercise2 = new ArrayEx2();
             int[] numbers = new int[]{1, 2, 3};
-            
-            System.out.println("The bigger number is: " + excercise2.biggestNumber(numbers));
-            System.out.println("The bigger number is: " + excercise2.biggestNumber2(numbers));          
+                   
+            System.out.println("The bigger number is: " + excercise2.biggestNumber(numbers));          
     }
 }
 
