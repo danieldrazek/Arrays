@@ -1,4 +1,6 @@
-
+/*
+ * Napisz metodę pobierającą dwuelementową tablicę liczb i zwracający ich sumę.
+ */
 package array;
 
 
