@@ -1,5 +1,6 @@
 /*
- * 
+ * Jak przechowałbyś stan sudoku? Napisz program, który stworzy instancje tablicy służących do przechowywania sudoku 
+ * i uzupełnij ją przykładową planszą.
  */
 package array;
 

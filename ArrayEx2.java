@@ -1,5 +1,5 @@
 /*
- * 
+ * Napisz program pobierający trójelementową tablicę liczb i zwracający największą liczbę.
  */
 package array;
 

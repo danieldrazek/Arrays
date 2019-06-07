@@ -1,5 +1,6 @@
 /*
- * 
+ * Jak przechowałbyś stan gry w szachy? Napisz program, który stworzy instancje tablic służące do przechowywania stanu gry w szachy. 
+ * Potrafiłbyś zachować w nim ostatni stan partii Kasparowa z Deep Blue?
  */
 package array;
 
